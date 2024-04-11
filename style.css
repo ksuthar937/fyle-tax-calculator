@@ -1,0 +1,13 @@
+.form-outer {
+  width: 21rem;
+  margin-top: 5rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0.3em 0.3em 2em rgba(110, 105, 105, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .form-outer {
+    width: 31rem;
+  }
+}
