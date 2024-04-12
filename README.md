@@ -30,3 +30,5 @@ Taxable Amount = Income over 8 Lakhs = 38 - 8 = 30 Lakhs
 Tax = 30% of Taxable Amount = 0.3 \* 30 = 9 Lakhs
 
 Overall income will be = Taxable Income - Tax = 29 Lakhs
+
+![alt text](1.PNG)
