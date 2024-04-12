@@ -4,9 +4,7 @@ Tax calculation based on a users input.
 
 ### References & Requirements
 
-Tax Calculation Rules:
-
-Income Bracket Taxation:
+###### Tax Calculation Rules:
 
 Income under 8 Lakhs is tax-exempt after deductions.
 
@@ -23,7 +21,7 @@ Extra Income: 6 Lakhs
 Age: 34
 Deductions: 2 Lakhs
 
-Tax Calculation:
+###### Tax Calculation:
 
 Taxable Income = Gross Annual Income + Extra Income - Deductions = 38 Lakhs
 
@@ -31,4 +29,4 @@ Taxable Amount = Income over 8 Lakhs = 38 - 8 = 30 Lakhs
 
 Tax = 30% of Taxable Amount = 0.3 \* 30 = 9 Lakhs
 
-Overall Income Will be = Taxable Income - Tax = 29 Lakhs
+Overall income will be = Taxable Income - Tax = 29 Lakhs
