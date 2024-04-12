@@ -31,16 +31,40 @@ Tax = 30% of Taxable Amount = 0.3 \* 30 = 9 Lakhs
 
 Overall income will be = Taxable Income - Tax = 29 Lakhs
 
-#### Tax Calculation:
+#### User Interface:
 
-![alt text](1.PNG)
+- Initial View:
 
-![alt text](2.PNG)
+"Below is the initial view of the interface."
 
-![alt text](3.PNG)
+![alt text](./assets/1.PNG)
 
-![alt text](4.PNG)
+- User Provided Inputs:
 
-![alt text](5.PNG)
+"Here are the user-provided inputs displayed on the interface."
 
-![alt text](6.PNG)
+![alt text](./assets/2.PNG)
+
+- Modal View After Submitted User Input:
+
+"This is the modal view displayed after the user has submitted their input."
+
+![alt text](./assets/3.PNG)
+
+- Entered Wrong Data (Form Validation):
+
+"An error message is shown when incorrect data is entered. This is part of the form validation process."
+
+![alt text](./assets/4.PNG)
+
+- Tooltip Appearing When User Hovers Over Info Symbol:
+
+"A tooltip appears when the user hovers over the info symbol, providing additional information."
+
+![alt text](./assets/5.PNG)
+
+- Clicking on Submit Button When Form is Empty (Form Validation):
+
+"An error message is displayed when the user tries to submit the form without filling in all the required fields. This is part of the form validation process."
+
+![alt text](./assets/6.PNG)
