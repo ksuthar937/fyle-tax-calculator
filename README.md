@@ -33,38 +33,38 @@ Overall income will be = Taxable Income - Tax = 29 Lakhs
 
 #### User Interface:
 
-- Initial View:
+##### Initial View:
 
-"Below is the initial view of the interface."
+- "Below is the initial view of the interface."
 
 ![alt text](./assets/1.PNG)
 
-- User Provided Inputs:
+##### User Provided Inputs:
 
-"Here are the user-provided inputs displayed on the interface."
+- "Here are the user-provided inputs displayed on the interface."
 
 ![alt text](./assets/2.PNG)
 
-- Modal View After Submitted User Input:
+##### Modal View After Submitted User Input:
 
-"This is the modal view displayed after the user has submitted their input."
+- "This is the modal view displayed after the user has submitted their input."
 
 ![alt text](./assets/3.PNG)
 
-- Entered Wrong Data (Form Validation):
+##### Entered Wrong Data (Form Validation):
 
-"An error message is shown when incorrect data is entered. This is part of the form validation process."
+- "An error message is shown when incorrect data is entered. This is part of the form validation process."
 
 ![alt text](./assets/4.PNG)
 
-- Tooltip Appearing When User Hovers Over Info Symbol:
+##### Tooltip Appearing When User Hovers Over Info Symbol:
 
-"A tooltip appears when the user hovers over the info symbol, providing additional information."
+- "A tooltip appears when the user hovers over the info symbol, providing additional information."
 
 ![alt text](./assets/5.PNG)
 
-- Clicking on Submit Button When Form is Empty (Form Validation):
+##### Clicking on Submit Button When Form is Empty (Form Validation):
 
-"An error message is displayed when the user tries to submit the form without filling in all the required fields. This is part of the form validation process."
+- "An error message is displayed when the user tries to submit the form without filling in all the required fields. This is part of the form validation process."
 
 ![alt text](./assets/6.PNG)
