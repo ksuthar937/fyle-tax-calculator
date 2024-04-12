@@ -26,7 +26,7 @@
       <!-- Form -->
       <div class="form-outer">
         <h3 class="mb-3">Tax Calculator</h3>
-        <form class="needs-validation" novalidate>
+        <form>
           <div class="mb-3">
             <label for="annualIncome" class="form-label"
               >Gross annual income
@@ -34,16 +34,30 @@
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
                 data-bs-title="Gross annual income is you total salary in a year without any deduction"
-                ><img src="./assets/question.svg" alt="" width="17rem" /></span
+                ><img
+                  src="./assets/question.svg"
+                  alt="question"
+                  width="17rem" /></span
             ></label>
-            <input
-              type="text"
-              class="form-control"
-              id="annualIncome"
-              placeholder="Enter gross annual income"
-              required
-              name="annualIncome"
-            />
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="annualIncome"
+                placeholder="Enter gross annual income"
+                required
+                name="annualIncome"
+              />
+              <div class="input-group-text">
+                <span
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="Please enter numbers only"
+                >
+                  <img src="assets/error.svg" alt="err" width="17rem" />
+                </span>
+              </div>
+            </div>
           </div>
 
           <div class="mb-3">
@@ -53,16 +67,30 @@
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
                 data-bs-title="Extra income is other income which you earn from other sources"
-                ><img src="./assets/question.svg" alt="" width="17rem" /></span
+                ><img
+                  src="./assets/question.svg"
+                  alt="question"
+                  width="17rem" /></span
             ></label>
-            <input
-              type="text"
-              class="form-control"
-              id="extraIncome"
-              placeholder="Enter extra income from other sources"
-              name="extraIncome"
-              required
-            />
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="extraIncome"
+                placeholder="Enter extra income from other sources"
+                name="extraIncome"
+                required
+              />
+              <div class="input-group-text">
+                <span
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="Please enter numbers only"
+                >
+                  <img src="assets/error.svg" alt="err" width="17rem" />
+                </span>
+              </div>
+            </div>
           </div>
 
           <div class="mb-3">
@@ -72,7 +100,10 @@
                 data-bs-toggle="tooltip"
                 data-bs-placement="top"
                 data-bs-title="You have to select your age in below given range"
-                ><img src="./assets/question.svg" alt="" width="17rem" /></span
+                ><img
+                  src="./assets/question.svg"
+                  alt="question"
+                  width="17rem" /></span
             ></label>
             <select
               class="form-select"
@@ -97,14 +128,25 @@
                 data-bs-title="Provide your total deduction amount"
                 ><img src="./assets/question.svg" alt="" width="17rem" /></span
             ></label>
-            <input
-              type="text"
-              class="form-control"
-              id="totalDeduct"
-              placeholder="Enter total applicable deduction"
-              name="totalDeduct"
-              required
-            />
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                id="totalDeduct"
+                placeholder="Enter total applicable deduction"
+                name="totalDeduct"
+                required
+              />
+              <div class="input-group-text">
+                <span
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="top"
+                  data-bs-title="Please enter numbers only"
+                >
+                  <img src="assets/error.svg" alt="err" width="17rem" />
+                </span>
+              </div>
+            </div>
           </div>
           <div class="d-grid">
             <button type="submit" class="btn btn-primary" id="submit">
@@ -136,6 +178,7 @@
                 type="button"
                 class="btn btn-secondary"
                 data-bs-dismiss="modal"
+                id="close"
               >
                 Close
               </button>
